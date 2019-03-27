@@ -1,0 +1,56 @@
+{
+  "name": "dar-trash-viz",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "jest --coverage --silent",
+    "test:watch": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-15": "^1.2.0",
+    "jest": "^23.6.0",
+    "prettier": "1.15.1",
+    "react-scripts": "^2.1.3",
+    "react-test-renderer": "^15.6.2",
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0",
+    "react-draggable": "^3.1.1"
+  },
+  "dependencies": {
+    "mapbox-gl": "^0.50.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.5.0",
+    "react-redux": "^5.0.5",
+    "react-text-ellipsis": "^1.5.1",
+    "redux": "^3.7.2",
+    "react-scripts": "^2.1.3",
+    "react-draggable": "^3.1.1"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "\\.js$": "<rootDir>/node_modules/babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
